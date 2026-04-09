@@ -1,0 +1,75 @@
+
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: "阿里妈妈数黑体 Bold";font-weight: 700;src: url("//at.alicdn.com/wf/webfont/wXhwMhJgn5yl/AO0ANYm4UkES.woff2") format("woff2"),
+url("//at.alicdn.com/wf/webfont/wXhwMhJgn5yl/gRnnZZby3Gz9.woff") format("woff");font-variation-settings: normal;font-display: swap;
+}
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: "阿里妈妈方圆体 VF Regular";src: url("//at.alicdn.com/wf/webfont/wXhwMhJgn5yl/pL3ejl4Fsbfy.woff2") format("woff2"),
+url("//at.alicdn.com/wf/webfont/wXhwMhJgn5yl/dk1NKIK7qSzp.woff") format("woff");font-variation-settings: "BEVL" 1, "wght" 200;font-display: swap;
+}
+
+.iconfont-alimama-regular {
+    font-family: "阿里妈妈方圆体 VF Regular";font-variation-settings: "BEVL" 1, "wght" 200; /* Chrome 140 以下版本需要 */
+}
+.iconfont-alimama-bold {
+    font-family: "阿里妈妈数黑体 Bold";font-variation-settings: normal; /* Chrome 140 以下版本需要 */
+}
+
+
+:root {
+    font-family: iconfont-alimama-regular, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /*color-scheme: light dark;*/
+    color: #333333;
+    /*background-color: #242424;*/
+
+    font-synthesis: none;
+/*    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;*/
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(159, 159, 159);
+}
+::-webkit-scrollbar-track-piece {
+    background: #dadada;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-min {
+    min-width: 1600px;
+    overflow-x: hidden;
+}
+
+.box-shadow {
+    box-shadow: 0 0 1px #b6b3b3;
+}
+
+@keyframes aroundAnimation {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 1%;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+.vr-mark-around-animation {
+    position: absolute;
+    top: 0;
+    animation: aroundAnimation 1s linear infinite;
+}
